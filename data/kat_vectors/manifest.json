@@ -1,0 +1,40 @@
+{
+  "pipeline": "ML-KEM Statistical Profiling Attack \u2014 Data Gen",
+  "fips_standard": "NIST FIPS 203 (ML-KEM)",
+  "kyber_py": "1.2.0",
+  "samples_each": 100000,
+  "batch_size": 5000,
+  "timestamp": "2026-04-01T06:15:29Z",
+  "variants": [
+    {
+      "variant": "ML-KEM-512",
+      "samples": 100000,
+      "ct_bytes": 768,
+      "ct_bits": 6144,
+      "ss_bytes": 32,
+      "output_file": "ml_kem_512_100k.csv.gz",
+      "size_mb": 87.85,
+      "ek_sha256": "7b9cbfca5d1ff3932952d4869950eb0238628db02c8bf3bca402a801c703b8be"
+    },
+    {
+      "variant": "ML-KEM-768",
+      "samples": 100000,
+      "ct_bytes": 1088,
+      "ct_bits": 8704,
+      "ss_bytes": 32,
+      "output_file": "ml_kem_768_100k.csv.gz",
+      "size_mb": 122.64,
+      "ek_sha256": "9baed03e8ec8defe7fcb00067ebd8b961c0f7865bf47e4950509e39d5e5e1707"
+    },
+    {
+      "variant": "ML-KEM-1024",
+      "samples": 100000,
+      "ct_bytes": 1568,
+      "ct_bits": 12544,
+      "ss_bytes": 32,
+      "output_file": "ml_kem_1024_100k.csv.gz",
+      "size_mb": 174.79,
+      "ek_sha256": "62b58672f109f4014b10c84eec1e2dcf3579dd44fb3195a36335a37d965db87f"
+    }
+  ]
+}

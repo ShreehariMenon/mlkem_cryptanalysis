@@ -1,0 +1,42 @@
+# ── Datasets (too large for GitHub — use Git LFS or external storage) ──
+data/raw/*.csv.gz
+data/processed/*.npy
+data/processed/*.npz
+
+# ── Model checkpoints ──
+results/checkpoints/*.pt
+results/checkpoints/*.pth
+results/checkpoints/*.ckpt
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+.venv/
+venv/
+mlkem_env/
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+
+# ── Logs ──
+*.log
+results/logs/*.txt
+
+# ── Secrets / keys (never commit raw key material) ──
+*.pem
+*.key
