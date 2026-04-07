@@ -1,0 +1,69 @@
+{
+  "variant": "ml_kem_512",
+  "model": "FastMLP + PCA",
+  "n_components": 256,
+  "samples_train": 18432,
+  "samples_test": 4096,
+  "epochs_trained": 10,
+  "best_val_acc": 0.514404296875,
+  "test_accuracy": 0.50390625,
+  "baseline_v1": 0.5017,
+  "delta": 0.002206249999999965,
+  "z_score": 0.5,
+  "p_value": 0.3085375387259869,
+  "significant_0.01": false,
+  "significant_0.05": false,
+  "training_seconds": 235.7838261127472,
+  "epoch_log": [
+    {
+      "epoch": 1,
+      "loss": 0.6995711343155967,
+      "val_acc": 0.494140625
+    },
+    {
+      "epoch": 2,
+      "loss": 0.6835793024963803,
+      "val_acc": 0.503173828125
+    },
+    {
+      "epoch": 3,
+      "loss": 0.6675986349582672,
+      "val_acc": 0.501953125
+    },
+    {
+      "epoch": 4,
+      "loss": 0.6412380470169915,
+      "val_acc": 0.502685546875
+    },
+    {
+      "epoch": 5,
+      "loss": 0.5991583400302463,
+      "val_acc": 0.514404296875
+    },
+    {
+      "epoch": 6,
+      "loss": 0.5511731753746668,
+      "val_acc": 0.512939453125
+    },
+    {
+      "epoch": 7,
+      "loss": 0.5003151678376727,
+      "val_acc": 0.507080078125
+    },
+    {
+      "epoch": 8,
+      "loss": 0.4613927710387442,
+      "val_acc": 0.496337890625
+    },
+    {
+      "epoch": 9,
+      "loss": 0.41343407664034104,
+      "val_acc": 0.491455078125
+    },
+    {
+      "epoch": 10,
+      "loss": 0.38010964956548476,
+      "val_acc": 0.504150390625
+    }
+  ]
+}

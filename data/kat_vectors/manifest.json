@@ -4,7 +4,7 @@
   "kyber_py": "1.2.0",
   "samples_each": 100000,
   "batch_size": 5000,
-  "timestamp": "2026-04-01T06:15:29Z",
+  "timestamp": "2026-04-02T12:20:51Z",
   "variants": [
     {
       "variant": "ML-KEM-512",
@@ -13,8 +13,8 @@
       "ct_bits": 6144,
       "ss_bytes": 32,
       "output_file": "ml_kem_512_100k.csv.gz",
-      "size_mb": 87.85,
-      "ek_sha256": "7b9cbfca5d1ff3932952d4869950eb0238628db02c8bf3bca402a801c703b8be"
+      "size_mb": 87.86,
+      "ek_sha256": "faaa2eedb593fee17605e8a5065c037cbd7f8e5ec3d547a9f68c66d2ceb16702"
     },
     {
       "variant": "ML-KEM-768",
@@ -24,7 +24,7 @@
       "ss_bytes": 32,
       "output_file": "ml_kem_768_100k.csv.gz",
       "size_mb": 122.64,
-      "ek_sha256": "9baed03e8ec8defe7fcb00067ebd8b961c0f7865bf47e4950509e39d5e5e1707"
+      "ek_sha256": "b9192a6f8a6e8f4f5806737b95a6e1bbcae62d6e68682830f7539efb6fd72770"
     },
     {
       "variant": "ML-KEM-1024",
@@ -34,7 +34,7 @@
       "ss_bytes": 32,
       "output_file": "ml_kem_1024_100k.csv.gz",
       "size_mb": 174.79,
-      "ek_sha256": "62b58672f109f4014b10c84eec1e2dcf3579dd44fb3195a36335a37d965db87f"
+      "ek_sha256": "4307c7a80d44e2f84940ea96a9075be991e21be01c9ca0ac0888bdc887f92060"
     }
   ]
 }
