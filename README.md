@@ -176,7 +176,7 @@ This project ensures a clean and valid evaluation setup.
 
 ---
 
-##🔍 Limitations
+## 🔍 Limitations
 Only MSB label tested
 PCA may remove nonlinear features
 CPU-based training limits model complexity
@@ -184,7 +184,7 @@ Single-run experiments (no variance analysis)
 
 ---
 
-##🔮 Future Work
+## 🔮 Future Work
 Alternative labels (parity, byte buckets)
 Full dataset training on GPU
 Improved architectures
@@ -193,7 +193,7 @@ Multi-run statistical validation
 
 ---
 
-##📚 References
+## 📚 References
 NIST FIPS 203 — ML-KEM Standard
 CRYSTALS-Kyber Specification
 kyber-py implementation
@@ -201,6 +201,7 @@ Deep Learning Side-Channel Analysis (CHES, SPACE)
 
 ---
 
-##🏁 Final Conclusion
+## 🏁 Final Conclusion
 
 Machine learning models are unable to extract any meaningful information from ML-KEM ciphertexts. The results confirm that ML-KEM outputs behave as random from an attacker’s perspective, reinforcing the security claims of NIST FIPS 203.
+ 
